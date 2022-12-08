@@ -1,0 +1,275 @@
+﻿<Window x:Class="Sonic.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sonic"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="1800">
+    <Grid>
+
+        <!--<Path Stroke="DarkGoldenRod" StrokeThickness="3"
+Data="M 100,220 C 100,25 400,350 400,175 H 280" />-->
+        <Path Fill="#FF5A72F9" Stroke="Black" StrokeThickness="3"
+Data="M 300,220 C 400,90 500,100 600,175" />
+        <Line Stroke="Black" X1="300" Y1="250" X2="300" Y2="220" />
+        <Path  Stroke="Black" StrokeThickness="3"
+Data="M 600,175 C 550,150 440,200 500,230" />
+        <Path Fill="#FF5A72F9" Stroke="Black" StrokeThickness="3"
+Data="M 500,230 C 550,250 620,320 620,380" />
+        <Path  Stroke="Black" StrokeThickness="3"
+Data="M 620,380 C 550,350 420,250 520,350" />
+        <Path Fill="#FF5A72F9" Stroke="Black" StrokeThickness="3"
+Data="M 520,350 C 680,550 420,350 400,380" />
+        <Path Stroke="Black" StrokeThickness="3"
+Data="M 450,200 C 460,170 460,90 400,180" />
+        <Path Fill="Orange"  Stroke="Black" StrokeThickness="3"
+Data="M 440,190 C 440,180 460,110 420,180" />
+        <Path Fill="Yellow" Stroke="Black" StrokeThickness="2"  
+  Data="M 330,350 A 200,50 45 0 0 370,330" Margin="71,6,-72,-4" />
+        <Path Fill="Brown" Stroke="Black" StrokeThickness="2"  
+  Data="M 330,350 A 150,50 45 0 0 360,330" Margin="71,6,-72,-4" />
+        <Path Fill="#FF5A72F9" Stroke="Black" StrokeThickness="2"  
+  Data="M 350,330 A 120,50 45 0 0 380,325" Margin="71,6,-72,-4" />
+        <Path Stroke="Black" StrokeThickness="2"  
+  Data="M 330,330   A 40,15 1 1 1 330,270 " Margin="72,46,-72,-45" />
+        <Path  Stroke="Black" StrokeThickness="2"  
+  Data="M 330,330   A 40,15 0 0 0 330,270 " Margin="71,46,-72,-45" />
+        <Path Fill="#FF5A72F9" Stroke="Black" StrokeThickness="1"  
+  Data="M 350,200 A 10,15 0 0 0 430,230" Margin="794,501,-794,-501" >
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path Fill="Orange" Stroke="Black" StrokeThickness="1"  
+  Data="M 360,180 A 10,19 0 0 0 430,200" Margin="796,500,-796,-500"  >
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-180"/>
+                    <TranslateTransform X="0" Y="0"/>
+                </TransformGroup>
+            </Path.RenderTransform>
+
+        </Path>
+        <Path Fill="#FF4ACA30" Stroke="Black" StrokeThickness="1"
+Data="M 360,180 C 350,230 280,0 318,230" Margin="5,120,-5,-120" />
+        <Path Stroke="Black" StrokeThickness="1"  
+  Data="M 350,230 A 12,25 -30 0 0 398,200"  Margin="713,501,-713,-501" >
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path  Fill="Red" Margin="-126,-74,126,74" >
+            <Path.Data>
+                <CombinedGeometry GeometryCombineMode="Union">
+                    <CombinedGeometry.Geometry1>
+                        <EllipseGeometry Center="350,650" RadiusX="15" RadiusY="30" >
+                            <EllipseGeometry.Transform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform AngleX="-24" AngleY="-11"/>
+                                    <RotateTransform Angle="-45"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </EllipseGeometry.Transform>
+                        </EllipseGeometry>
+                    </CombinedGeometry.Geometry1>
+                    <CombinedGeometry.Geometry2>
+                        <EllipseGeometry Center="740,-560" RadiusX="30" RadiusY="20" >
+                            <EllipseGeometry.Transform>
+                                <TransformGroup>
+                                    <ScaleTransform ScaleX="1" ScaleY="1"/>
+                                    <SkewTransform AngleX="25" AngleY="11"/>
+                                    <RotateTransform Angle="75"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </EllipseGeometry.Transform>
+                        </EllipseGeometry>
+                    </CombinedGeometry.Geometry2>
+                </CombinedGeometry>
+
+            </Path.Data>
+        </Path>
+        <Path Grid.Row="1" Fill="White" Stroke="Black" StrokeThickness="3">
+            <Path.Data>
+                <CombinedGeometry GeometryCombineMode="Xor">
+                    <CombinedGeometry.Geometry1>
+                        <EllipseGeometry Center="443,210" RadiusX="10" RadiusY="30">
+                            <EllipseGeometry.Transform>
+                                <TransformGroup>
+                                    <RotateTransform Angle="10"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </EllipseGeometry.Transform>
+                        </EllipseGeometry>
+                    </CombinedGeometry.Geometry1>
+                    <CombinedGeometry.Geometry2>
+                        <EllipseGeometry Center="240,380" RadiusX="8" RadiusY="25">
+                            <EllipseGeometry.Transform>
+                                <TransformGroup>
+                                    <RotateTransform Angle="-15"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </EllipseGeometry.Transform>
+                        </EllipseGeometry>
+
+                    </CombinedGeometry.Geometry2>
+
+                </CombinedGeometry>
+            </Path.Data>
+
+        </Path>
+        <Path Fill="#FF5A72F9" Stroke="Black" StrokeThickness="3"
+            Data="M 300,180 C 280,130 260,90 240,240" Margin="62,-24,-62,24" />
+        <Path Grid.Row="1" Fill="White" Stroke="Black" StrokeThickness="3">
+            <Path.Data>
+                <CombinedGeometry GeometryCombineMode="Xor">
+                    <CombinedGeometry.Geometry1>
+                        <EllipseGeometry Center="443,210" RadiusX="5" RadiusY="30">
+                            <EllipseGeometry.Transform>
+                                <TransformGroup>
+                                    <RotateTransform Angle="10"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </EllipseGeometry.Transform>
+                        </EllipseGeometry>
+                    </CombinedGeometry.Geometry1>
+                    <CombinedGeometry.Geometry2>
+                        <EllipseGeometry Center="240,380" RadiusX="3" RadiusY="25">
+                            <EllipseGeometry.Transform>
+                                <TransformGroup>
+                                    <RotateTransform Angle="-15"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </EllipseGeometry.Transform>
+                        </EllipseGeometry>
+
+                    </CombinedGeometry.Geometry2>
+
+                </CombinedGeometry>
+            </Path.Data>
+
+        </Path>
+        <Path Grid.Row="1" Fill="Red" Stroke="Black" StrokeThickness="3">
+            <Path.Data>
+                <CombinedGeometry GeometryCombineMode="Xor">
+                    <CombinedGeometry.Geometry1>
+                        <EllipseGeometry Center="443,210" RadiusX="10" RadiusY="10">
+                            <EllipseGeometry.Transform>
+                                <TransformGroup>
+                                    <RotateTransform Angle="10"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </EllipseGeometry.Transform>
+                        </EllipseGeometry>
+                    </CombinedGeometry.Geometry1>
+                    <CombinedGeometry.Geometry2>
+                        <EllipseGeometry Center="240,380" RadiusX="10" RadiusY="10">
+                            <EllipseGeometry.Transform>
+                                <TransformGroup>
+                                    <RotateTransform Angle="-15"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </EllipseGeometry.Transform>
+                        </EllipseGeometry>
+
+                    </CombinedGeometry.Geometry2>
+
+                </CombinedGeometry>
+            </Path.Data>
+
+        </Path>
+        <Path Grid.Row="1" Fill="White" Stroke="Black" StrokeThickness="3">
+            <Path.Data>
+                <CombinedGeometry GeometryCombineMode="Xor">
+                    <CombinedGeometry.Geometry1>
+                        <EllipseGeometry Center="443,210" RadiusX="9" RadiusY="4">
+                            <EllipseGeometry.Transform>
+                                <TransformGroup>
+                                    <RotateTransform Angle="10"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </EllipseGeometry.Transform>
+                        </EllipseGeometry>
+                    </CombinedGeometry.Geometry1>
+                    <CombinedGeometry.Geometry2>
+                        <EllipseGeometry Center="240,380" RadiusX="8" RadiusY="4">
+                            <EllipseGeometry.Transform>
+                                <TransformGroup>
+                                    <RotateTransform Angle="-15"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </EllipseGeometry.Transform>
+                        </EllipseGeometry>
+
+                    </CombinedGeometry.Geometry2>
+
+                </CombinedGeometry>
+            </Path.Data>
+
+        </Path>
+        <Path Grid.Row="1" Fill="Pink" Stroke="Black" StrokeThickness="3">
+            <Path.Data>
+                <CombinedGeometry GeometryCombineMode="Xor">
+                    <CombinedGeometry.Geometry1>
+                        <EllipseGeometry Center="420,260" RadiusX="20" RadiusY="20">
+                            <EllipseGeometry.Transform>
+                                <TransformGroup>
+                                    <RotateTransform Angle="10"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </EllipseGeometry.Transform>
+                        </EllipseGeometry>
+                    </CombinedGeometry.Geometry1>
+                   
+
+
+                </CombinedGeometry>
+            </Path.Data>
+
+        </Path>
+        <Path Grid.Row="1" Fill="Gray" Stroke="Black" StrokeThickness="3">
+            <Path.Data>
+                <CombinedGeometry GeometryCombineMode="Xor">
+                    <CombinedGeometry.Geometry1>
+                        <EllipseGeometry Center="410,260" RadiusX="8" RadiusY="8">
+                            <EllipseGeometry.Transform>
+                                <TransformGroup>
+                                    <RotateTransform Angle="10"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </EllipseGeometry.Transform>
+                        </EllipseGeometry>
+                    </CombinedGeometry.Geometry1>
+                    <CombinedGeometry.Geometry2>
+                        <EllipseGeometry Center="280,410" RadiusX="8" RadiusY="8">
+                            <EllipseGeometry.Transform>
+                                <TransformGroup>
+                                    <RotateTransform Angle="-15"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </EllipseGeometry.Transform>
+                        </EllipseGeometry>
+
+                    </CombinedGeometry.Geometry2>
+
+                </CombinedGeometry>
+            </Path.Data>
+
+        </Path>
+        
+    </Grid>
+
+</Window>
